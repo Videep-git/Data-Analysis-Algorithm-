@@ -17,8 +17,7 @@ int main() {
         if(AT[i]<=DT[j]) {
             platforms++;
             maxPlatforms=max(maxPlatforms,platforms);
-            i++;
-        }
+            i++;        }
         else{
             platforms--;
             j++;
